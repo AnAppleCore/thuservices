@@ -397,7 +397,7 @@ cp -r python/seafile $(python3 -m site --user-site)
 
 ### 获取IPv6挂PT
 
-由于在家中使用 SSLVPN 后可获得校内公网 IP，可以使用 ISATAP 获取清华 IPv6 地址，以达到挂 PT 的功能，此处不做详细展开。
+由于在家中使用 SSLVPN 后可获得校内公网 IP，可以使用 ISATAP 获取清华 IPv6 地址，以达到挂 PT 的功能，具体可以参考[ISATAP 配置](https://ipv6.tsinghua.edu.cn/isatap/)
 
 ## WIN 10 激活
 
