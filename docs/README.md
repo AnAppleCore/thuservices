@@ -47,6 +47,7 @@
             - 清华大学 Overleaf 服务
             - LibGuides at Tsinghua University
             - 清新时报
+            - 各食堂进入人数
 - [services.md](services.md)
     - 清华服务使用指北（主要面向 Linux 用户）
         - DNS/NTP
@@ -101,6 +102,7 @@
         - THU Letter of Recommendation Template
         - A Simple Tsinghua Letterhead Template
         - CV-tsinghua-template
+        - THU-Exam-LaTeX-Template
 - [utils.md](utils.md)
     - 一些脚本和工具
         - 校园网认证工具汇总
@@ -108,9 +110,9 @@
         - 选课冲突标记
         - INFO 网络学堂 Telegram 消息推送
         - 全校洗衣机状态
-            - 全校洗衣机状态 - API接口（文字版）
             - 全校洗衣机状态 - 洗衣机查询工具（有界面）
             - 全校洗衣机状态 - 官方小程序
+            - 全校洗衣机状态 - API接口（文字版，已废弃）
             - 全校洗衣机状态 - iOS 快捷方式（不可用）
             - 全校洗衣机状态 - Telegram Bot 二哈（不可用）
             - 洗衣监控与提醒 - 微信小程序（不可用）
@@ -122,6 +124,8 @@
         - 学堂在线字幕下载器
         - 雨课堂课件下载器
         - 清华教学参考书爬取
+            - 清华大学教参服务平台
+            - 文泉学堂
         - 课程地点分享
         - 注册标志（用于火车票）
         - 寝室电费查询
@@ -140,6 +144,8 @@
         - 清华成绩刮刮乐
         - thuhole memories
         - thuhole database backup
+        - 计算机系学生科协技能引导文档
+        - 清华大学研究生社会实践系统爬虫
 - [websites.md](websites.md)
     - 常用校外网站
         - thu.services

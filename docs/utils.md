@@ -65,7 +65,21 @@
 
 ## 全校洗衣机状态
 
-### 全校洗衣机状态 - API接口（文字版）
+### 全校洗衣机状态 - 洗衣机查询工具（有界面）
+
+https://washer.sdevs.top/
+
+界面简洁易用，数据经过整理，可记忆查询的公寓楼，提供反馈渠道。
+
+### 全校洗衣机状态 - 官方小程序
+
+在洗衣机厂商的小程序中也可以查询洗衣机状态（这也是上述两个工具的数据来源）。
+
+入口是主页下方的“附近的洗衣机”按钮。
+
+![“自助智能校园”小程序码](image/washer_official.jpg)
+
+### 全校洗衣机状态 - API接口（文字版，已废弃）
 
 还在为了抢洗衣机而努力吗，还在跑上跑下却发现一个洗衣机都没有而痛苦吗，这个服务
 帮你侦测洗衣机状态，足不出户而一键掌握全校洗衣机的动向！
@@ -87,20 +101,6 @@ https://washer.thu.services/?s=紫荆1号楼
 
 对于「p」参数，我们只检查「p」是否存在，若存在，则返回 text/plain 数据，
 「s」与「p」参数可同时使用。当「j」与「p」同时出现时，「j」的优先级更高。
-
-### 全校洗衣机状态 - 洗衣机查询工具（有界面）
-
-https://washer.sdevs.top/
-
-界面简洁易用，数据经过整理，可记忆查询的公寓楼，提供反馈渠道。
-
-### 全校洗衣机状态 - 官方小程序
-
-在洗衣机厂商的小程序中也可以查询洗衣机状态（这也是上述两个工具的数据来源）。
-
-入口是主页下方的“附近的洗衣机”按钮。
-
-![“自助智能校园”小程序码](image/washer_official.jpg)
 
 ### 全校洗衣机状态 - iOS 快捷方式（不可用）
 
@@ -175,6 +175,8 @@ Roberts Holder 版本：项目地址在[此](https://github.com/rcy17/MOOC_subti
 
 Rynco Maekawa 版本：项目地址在[此](https://github.com/lynzrand/xuetangx_sub)
 
+c7w 版本：项目地址在[此](https://github.com/c7w/TsinghuaMoocCaptionCrawler)
+
 ## 雨课堂课件下载器
 
 目前仅适用于「长江雨课堂」，不过改改就可以用于荷塘雨课堂。
@@ -183,23 +185,37 @@ Rynco Maekawa 版本：项目地址在[此](https://github.com/lynzrand/xuetangx
 
 ## 清华教学参考书爬取
 
-项目在[此](https://github.com/libthu/reserves-lib-tsinghua-downloader)。下方两个项目由于 API 变动不可用。
+校图书馆购买了许多的[图书资源](https://nav.lib.tsinghua.edu.cn/cgi-bin/searchuse.cgi?c=7)，推荐优先使用[清华大学教参服务平台](http://reserves.lib.tsinghua.edu.cn/)和[文泉学堂-清华大学出版社电子图书数据库](https://lib-tsinghua.wqxuetang.com/)寻找中文教材。
+
+### 清华大学教参服务平台
+
+清华大学教参服务平台在版权允许范围内（在线浏览）提供课程教材和教参的扫描电子版，如果需要平台上没有的教材，可以直接邮件或电话联系[相关部门](https://lib.tsinghua.edu.cn/info/1184/3617.htm)进行扫描。
+
+推荐使用[reserves-lib-tsinghua-downloader](https://github.com/libthu/reserves-lib-tsinghua-downloader)进行下载。
+
+在 [thu-info-lib](https://github.com/thu-info-community/thu-info-lib) 中也实现了下载功能。
+
+下方两个项目由于 API 变动不可用。
 
 引自原文：最近疫情严重，购买教材较为困难，为了方便大家在线学习，写了一个爬取清华教参的 python 脚本。
 
 项目地址在[此](https://github.com/lflame/TsinghuaBookCrawler)
 
-又有一种实现
-
 引用原文：自动下载书籍每一页的原图。
 
 项目地址在[此](https://github.com/i207M/reserves-lib-tsinghua-downloader)
 
+### 文泉学堂
+
+文泉学堂用来搜索清华大学出版社的图书，反爬严格，可以使用[这个](https://greasyfork.org/zh-CN/scripts/437737-%E6%96%87%E6%B3%89%E5%AD%A6%E5%A0%82pdf%E4%B8%8B%E8%BD%BD%E4%BF%AE%E5%A4%8D%E7%89%88)脚本下载。
+
 ## 课程地点分享
 
-在[https://wmcgcdn.rika.tech/](https://wmcgcdn.rika.tech/)中，其项目地址为[此](https://github.com/RikaKagurasaka/where-my-course-gone-backend)。
+当前可用：由 learnX 开发团队维护的 [courseX 课程信息共享计划](https://tsinghua.app/courses)
 
-目前已经停止维护与运营。
+以下项目目前已经停止维护与运营：
+
+在[https://wmcgcdn.rika.tech/](https://wmcgcdn.rika.tech/)中，其项目地址为[此](https://github.com/RikaKagurasaka/where-my-course-gone-backend)。
 
 ## 注册标志（用于火车票）
 
@@ -307,3 +323,15 @@ https://github.com/Wsky51/THU-CS912-kaoyan
 在洗完数据后，大部分不涉及个人隐私的有意义的树洞备份在此GitHub仓库。
 
 <https://github.com/thuhole/database_backup>
+
+## 计算机系学生科协技能引导文档
+
+本技能引导文档由清华大学计算机系学生科协维护，目标在于让计算机类与计算机系的学生能够快速地掌握某些特定的技能，并且通过给出这些技能在课程、科研与实习中可能运用的方式，节省同学们收集相关资料的时间，同时提升同学们学习新技能的能力。
+
+<https://docs.net9.org/>
+
+## 清华大学研究生社会实践系统爬虫
+
+Crawl structured data from https://thshijian.tsinghua.edu.cn (清华大学研究生社会实践系统). Use at your own risk.
+
+<https://github.com/Harry-Chen/thshijian-crawler>

@@ -12,7 +12,7 @@
 
 ## 本科专业培养方案
 
-[清华官网培养方案链接](https://2020.tsinghua.edu.cn/jyjx1/bksjy/bkzy1.htm)
+[清华官网培养方案链接](https://www.tsinghua.edu.cn/jyjx/bksjy/bkzy.htm)
 
 [计算机系 19 级培养方案 info 版本（需要已经登录 info）](http://zhjw.cic.tsinghua.edu.cn/jhBks.vjhBksPyfakzbBs.do?m=pyfakzFrame&fajhh=193024111&theModule=pyfa)
 
@@ -86,14 +86,14 @@
 
 ## 校内校车
 
-[校内交通介绍](https://2020.tsinghua.edu.cn/zjqh/syxx1/xyjt1.htm)
+[校内交通介绍](https://www.tsinghua.edu.cn/zjqh/syxx/xyjt.htm)
 [校车交通路线图](https://www.tsinghua.edu.cn/__local/3/BB/BE/7260A578E48A6BA827528DE4F74_004A1626_73CEC.png)
 
 校车实时运行情况可以使用“校内交通介绍”中提到的 APP 与/或小程序
 
 ## 校内地图（静态版）
 
-[校内地图](https://2020.tsinghua.edu.cn/zjqh/xyfg/xydt1.htm)
+[校内地图](https://www.tsinghua.edu.cn/zjqh/xyfg/xydt.htm)
 
 ## 清华大学调查问卷系统
 
@@ -184,3 +184,7 @@
 ### 清新时报
 
 <https://qxcm.tsjc.tsinghua.edu.cn/pc/folder120>
+
+### 各食堂进入人数
+
+微信->清华大学信息服务->学生食堂进入人数
