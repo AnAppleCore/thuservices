@@ -13,7 +13,6 @@
     - INFO重要信息集合
         - 校历
             - 2022-2023学年 
-            - 2021-2022学年 
         - 本科专业培养方案
         - 学校宣传资料
             - INFO 版本
@@ -45,10 +44,10 @@
         - DIVI 注册设备
         - 清华大学邮箱
             - 清华大学校友邮箱
-            - 清华大学 Overleaf 服务
-            - LibGuides at Tsinghua University
-            - 清新时报
-            - 各食堂进入人数
+        - 清华大学 Overleaf 服务
+        - LibGuides at Tsinghua University
+        - 清新时报
+        - 各食堂进入人数
 - [services.md](services.md)
     - 清华服务使用指北（主要面向 Linux 用户）
         - DNS/NTP
@@ -61,6 +60,9 @@
             - 远端服务器代认证
             - 远端服务器网页认证
             - Tsinghua-Secure
+                - NetworkManager
+                - wpa_supplicant
+                - iwd
             - Tsinghua-Secure 仅校内登录方式
         - 校园网特性讨论
             - 二层隔离/邻居发现隔离
@@ -82,12 +84,13 @@
                 - 替换部分文件实现 Token 登录
                 - 编译 Terminal 客户端
             - Chrome 提醒下载的文件危险
-        - ISATAP 
+        - ISATAP（已停止）
             - 获取IPv6挂PT
         - WIN 10 激活
         - 正版操作系统与软件下载
             - ITS
             - TUNA
+        - 校内 IP 段
 - [templates.md](templates.md)
     - LaTeX 等模板
         - 《如何使用 LaTeX 排版论文》讲稿
@@ -104,14 +107,17 @@
         - A Simple Tsinghua Letterhead Template
         - CV-tsinghua-template
         - THU-Exam-LaTeX-Template
+        - ilatex
 - [utils.md](utils.md)
     - 一些脚本和工具
         - 校园网认证工具汇总
         - INFO/网络学堂 APP/插件
         - 选课冲突标记
+        - 选课剩余课容标记
         - INFO 网络学堂 Telegram 消息推送
         - 全校洗衣机状态
             - 全校洗衣机状态 - 洗衣机查询工具（有界面）
+            - 清华大学洗衣房可用性查询
             - 全校洗衣机状态 - 官方小程序
             - 全校洗衣机状态 - API接口（文字版，已废弃）
             - 全校洗衣机状态 - iOS 快捷方式（不可用）
